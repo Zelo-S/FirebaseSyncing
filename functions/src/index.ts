@@ -20,6 +20,7 @@ exports.exportOrderData = functions.region(region).firestore.document('users/{id
     
     //let githubLink = "";
     //if(docData.githubLink) githubLink = docData.githubLink;
+    // upd
     
     const studyLevel = docData.studyLevel;
     
